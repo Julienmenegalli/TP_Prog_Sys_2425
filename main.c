@@ -33,6 +33,7 @@ int main() {
         if (strcmp(input, "exit") == 0) {
             write(STDOUT_FILENO, "Au revoir !\n", MaxCharCountexit);
             break;
+            // Un commentaire très intéressant.
         }
     }
     return 0;
